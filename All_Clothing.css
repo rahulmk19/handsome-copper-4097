@@ -39,6 +39,9 @@ input{
     padding-left: 140px;
     padding-top: 30px;
 }
+#All_men{
+    display: flex;
+}
 #All_men>div:nth-child(1){
     width: 200px;
     border-right: 1px solid black;
@@ -48,4 +51,11 @@ input{
 #All_men>div>div:nth-child(1){
     display: flex;
     justify-content: space-between;
+}
+#All_men>div:nth-child(2)>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#All_men>div:nth-child(2)>div:nth-child(2)>div{
+    border: 1px solid grey;
 }
