@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        #container>div:nth-child(1){
+            display: flex;
+            justify-content: end;
+            width: 1570px;
+            margin: 50px;
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+            margin-bottom: 0px;
+            margin-top: 0px;
+            
+        }
+        #container>div>div:nth-child(2)>select{
+            margin-top: 20px;
+            border: 0px;
+        }
+        #container>div:nth-child(1)>div:nth-child(3)>h3{
+            background-color: black;
+            color: white;
+            width: 150px;
+            text-align: center;
+        }
+        #container>div:nth-child(1)>div{
+            margin-left:40px ;
+        }
+
+        #container>div:nth-child(2){
+        display: flex;
+        border-bottom: 1px solid black;
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        }
+        #container>div:nth-child(2)>div{
+            margin-left: 40px;
+        }
+        #container>div:nth-child(2)>div:nth-child(1)>a>img{
+            height: 80px;
+            width: 200px;
+            margin-right: 50px;
+        }
+        input{
+            height: 50px;
+            width: 1050px;
+            border: solid 1px black;
+        }
+        #signup{
+            display: flex;
+        }
+        #signup>div:nth-child(1){
+            width: 400px;
+            /* border: 1px solid red; */
+            margin-left: 200px;
+        }
+        #signup>div:nth-child(1)>button{
+            width: 400px;
+            height: 50px;
+            margin-top: 10px;
+            background-color: white;
+        }
+        #signup>div:nth-child(1)>.cont{
+            background-color: black;
+            color: white;
+        }
+        
+        #signup>div:nth-child(1)>input{
+            width: 400px;
+            background-color: gainsboro;
+            border: 0px ;
+            border-bottom: 1px solid black;
+        }
+        #signup>div:nth-child(2){
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        #signup>div:nth-child(2)>div{
+            border: 1ps solid grey;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <div><h4>IN-US$</h4></div>
+            <div><select>
+                <option>Help Center</option>
+                <option>Contact us</option>
+                <option>About us</option>
+                <option>Careers</option>
+            </select></div>
+            <div><h3><a href="Signup.html">Sign up or log in</a></h3></div>
+        </div>
+        <div>
+            <div><a href="index.html"><img src="logo.png" /></a></div>
+            <div><h2><u>WOMEN</u></h2></div>
+            <div><h2><a href="Men.html">MEN</a></h2></div>
+            <div><input type="text" placeholder="SEARCH (EG.VALENTINO DRESSES)"></div>
+        </div>
+        <div id="signup">
+            <div>
+                <h1>The only fashion site you need</h1>
+                <p>Email</p>
+                <input id="fill" type="text" placeholder="Enter your email address to login or register"><br>
+                <button onclick="clickbutton()"  class="cont"><h3>Continue</h3></button>
+                <p>-----------------------------OR----------------------------------------</p>
+                <button onclick="googlesign()"><h3>Continue with Google</h3></button><br>
+                <button onclick="applesign()"><h3>Continue with Apple</h3></button><br>
+                <button onclick="fackbooksign()"><h3>Continue with Facebook</h3></button>
+                <p>By creating an account, you consent to Lyst’s Terms & Conditions. To learn more about how Lyst uses and protects your personal data, please read Lyst’s Privacy Policy.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/woodhouseclothing/f5758b8e/polo-ralph-lauren-Black-Performance-Tracksuit.jpeg">
+                    <h2>POLO RALPH LAUREN</h2>
+                    <p>Performance Tracksuit-Black</p>
+                    <h2>$336</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/scottsmenswear/dd388db6/boss-by-hugo-boss-white-Chest-Logo-T-shirt.jpeg">
+                    <h2>BOSS BY HUGO BOSS</h2>
+                    <p>Bodywear Rn 24 Sustainable Crew Neck T-shirt - White</p>
+                    <h2>$20</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/24sevres/d91d2426/palm-angels-black_white-Logo-T-shirt.jpeg">
+                    <h2>PALM ANGELS</h2>
+                    <p>Logo-print Oversized Cotton-jersey Neck T-shirt - White</p>
+                    <h2>$235</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/732a3a90/versace-White-Medusa-Printed-Crewneck-T-shirt.jpeg">
+                    <h2>VERSACE</h2>
+                    <p>Medusa T-shirt - White</p>
+                    <h2>$47</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/woodhouseclothing/36906d05/boss-by-hugo-boss-Black-Rubber-Print-Logo-Sustainable-T-shirt.jpeg">
+                    <h2>BOSS BY HUGO BOSS</h2>
+                    <p>Rubber Print Logo Sustainable T-shirt - Black</p>
+                    <h2>$56</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/scottsmenswear/031edfb4/nike-grey-Tech-Fleece-Full-Zip-Hoodie.jpeg">
+                    <h2>NIKE</h2>
+                    <p>Tech Fleece Full Zip Hoodie - Gray</p>
+                    <h2>$123</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/mytheresa/c306dcc7/the-north-face-black-Chaqueta-1996-Retro-Nuptse.jpeg">
+                    <h2>THE NORTH FACE</h2>
+                    <p>1996 Retro Nupste Jacet - Black</p>
+                    <h2>$321</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/woodhouseclothing/c1231e0c/polo-ralph-lauren-Grey-Performance-Tracksuit.jpeg">
+                    <h2>POLO RALPH LAUREN</h2>
+                    <p>Performance Tracksuit-Gray</p>
+                    <h2>$336</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/stand-out/38f07936/ea7-BlackGold-Chest-Logo-Tracksuit.jpeg">
+                    <h2>EA7</h2>
+                    <p>Chest Logo Tracksuit - Black</p>
+                    <h2>$130</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/tessuti/103f2188/boss-by-hugo-boss-Black-Velour-joggers.jpeg">
+                    <h2>BOSS BY HUGO BOSS</h2>
+                    <p>Velour sweatpants - Black</p>
+                    <h2>$41</h2>
+                </div>
+                
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/saksoff5th/bbe7ed4c/prada-White-Foehn-Crewneck-Tee.jpeg">
+                    <h2>PRADA</h2>
+                    <p>Foehn Crewneck Tee - White</p>
+                    <h2>$70</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/c2a7fa8c/gucci-Multi-Knit-Long-sleeved-Zip-up-Jacket.jpeg">
+                    <h2>GUCCI</h2>
+                    <p>Knit Long-sleeved Zip-up Jacket - Multicolor</p>
+                    <h2>$4079</h2>
+                </div>
+                
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/stand-out/aa356477/calvin-klein-Black-Essential-Down-Jacket.jpeg">
+                    <h2>CALVIN KLEIN</h2>
+                    <p>S Coats - Puffer Jacket S - Down Jacket - Black Jacket - Essentials Down Jacket Down Coat - Ck Black - Size - Black</p>
+                    <h2>$171</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/saksoff5th/ace70c4e/prada-Navy-Mistral-Crewneck-Tee.jpeg">
+                    <h2>PRADA</h2>
+                    <p>Mistral Crewneck Tee - Blue</p>
+                    <h2>$60</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/ssense/382658d3/rick-owens-MACASSAR-Burgundy-Bauhaus-Cargo-Pants.jpeg">
+                    <h2>MENS BURGUNDY PANTS</h2>
+                </div>
+                <div>
+                    <img src="https://cdna.lystit.com/200/250/tr/photos/atterley/a76b689e/boss-by-hugo-boss-Blue-Boss-Maine3-Mid-Regular-Fit-Cashmere-Touch-Jeans-50481294-419.jpeg">
+                    <h2>MENS CASHMERE JEANS</h2>
+                </div>
+                    
+            </div>
+            
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
+
+<script>
+    function clickbutton(){
+        let ans=document.querySelector("#fill").value;
+        alert("Login Succesfull With Email")
+    }
+    function googlesign(){
+        alert("Login Succesfull With Google")
+    }
+    function applesign(){
+        alert("Login Succesfull With Apple")
+    }
+    function fackbooksign(){
+        alert("Login Succesfull With Facebook")
+    }
+</script>
