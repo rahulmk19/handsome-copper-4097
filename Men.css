@@ -7,6 +7,10 @@
     margin-bottom: 0px;
     margin-top: 0px;   
 }
+#container>div>div:nth-child(2)>select{
+    margin-top: 20px;
+    border: 0px;
+}
 #container>div:nth-child(1)>div:nth-child(3)>h3{
     background-color: black;
     color: white;
@@ -24,9 +28,15 @@ display: flex;
 #container>div:nth-child(2)>div{
     margin-left: 40px;
 }
+#container>div:nth-child(2)>div:nth-child(1)>a>img{
+    height: 80px;
+    width: 200px;
+    margin-right: 10px;
+}
+
 input{
     height: 50px;
-    width: 1200px;
+    width: 1050px;
     border: solid 1px black;
 }
 
